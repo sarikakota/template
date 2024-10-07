@@ -1,0 +1,49 @@
+/* Navbar styles */
+.shadow-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.bg-body-tertiary {
+    background-color: #f8f9fa; /* Background color */
+}
+
+/* Logo styles */
+.logo {
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: round logo */
+}
+
+/* Styles for the search form */
+.position-relative {
+    position: relative; /* Positioning context for the icon */
+}
+
+.position-absolute {
+    position: absolute; /* Positioning the icon absolutely */
+    right: 10px; /* Adjust based on your padding needs */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    background: transparent; /* Remove background */
+    border: none; /* Remove border */
+    color: #495057; /* Icon color */
+}
+
+/* Button link styles */
+.button-link {
+    color: black !important; /* Button link color */
+    text-decoration: none; /* No underline */
+}
+
+.button-link:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
+/* Nav link styles */
+.nav-link {
+    color: black !important; /* Nav link text color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Change color on hover */
+}

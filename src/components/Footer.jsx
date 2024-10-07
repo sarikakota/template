@@ -1,3 +1,4 @@
+
 import React from 'react';
 import '../styles/Footer.css'; // Import the CSS file
 
@@ -11,7 +12,7 @@ const Footer = () => {
             alt="Licious Logo" 
             className="footer-logo" 
           />
-          <h3>EXPERIENCE LICIOUS APP ON MOBILE</h3>
+          <h5>EXPERIENCE LICIOUS APP ON MOBILE</h5>
           <div className="app-icons">
             <img 
               src="https://www.licious.in/image/rebranding/png/app-store-homepage.png" 
@@ -24,10 +25,10 @@ const Footer = () => {
               className="app-icon" 
             />
           </div>
-        </div>
+        
 
         <div className="footer-section">
-          <h3>KEEP IN TOUCH</h3>
+          <h5>KEEP IN TOUCH</h5>
           <div className="social-icons">
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <img 
@@ -52,15 +53,19 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
+        </div>
         <div className="footer-section">
-          <h3>USEFUL LINKS</h3>
+          <h5>USEFUL LINKS</h5>
           <ul>
             <li>Why Licious?</li>
             <li>Refer & Earn</li>
             <li>Licious Cash & Cash+</li>
             <li>Careers</li>
-            <li>BLOG</li>
+            <li>BLOG</li> 
+             </ul>
+             </div>
+            <div>
+              <ul>
             <li>About Us</li>
             <li>Bug Bounty Guidelines</li>
             <li>T&C</li>
@@ -71,14 +76,14 @@ const Footer = () => {
             <li>SA8000 Certification</li>
             <li>CSR Policy</li>
             <li>Sitemap</li>
-          </ul>
+            </ul>
         </div>
 
         <div className="footer-section contact-section">
-          <h3>CONTACT US</h3>
+          <h5>CONTACT US</h5>
           <p>Call: 1800-4190-786</p>
           <p>Email: <a href="mailto:talktous@licious.com">talktous@licious.com</a></p>
-          <h4>REGISTERED OFFICE ADDRESS:</h4>
+          <h6>REGISTERED OFFICE ADDRESS:</h6>
           <p>DELIGHTFUL GOURMET PVT LTD</p>
           <p>Maruthi Infotech Center 11/1, 12/1 B wing 1st Floor</p>
           <p>Amarjyothi layout Intermediate ring road</p>
@@ -96,4 +101,4 @@ const Footer = () => {
   );
 }
 
-export default Footer;
+export default Footer;         

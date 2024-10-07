@@ -7,6 +7,9 @@ import Bestsellers from './components/Bestsellers'
 import Customers from './components/Customers'
 import Paragraph from './components/Paragraph'
 import Footer from './components/Footer'
+import Cities from './components/Serve'
+import Rights from './components/Rights'
+import Searches from './components/Searches'
 
 const App = () => {
   return (
@@ -18,8 +21,11 @@ const App = () => {
   <Customers/>
  <Paragraph/>
  <Footer/>
+ <Cities/>
+ <Searches/>
+ <Rights/>
     </div>
   )
 }
 
-export default App
+export default App  

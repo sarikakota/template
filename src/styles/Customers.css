@@ -1,49 +1,50 @@
+
 .bestsellers-section {
-    padding: 20px; /* Padding around the section */
+    padding: 20px; 
 }
 
 .bestsellers-title {
-    font-size: 24px; /* Title font size */
-    font-weight: bold; /* Bold font weight */
-    margin-bottom: 10px; /* Space below the title */
-    text-align: left; /* Align text to the left */
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    text-align: left; 
 }
 
 .bestsellers-subtitle {
-    font-size: 16px; /* Subtitle font size */
-    color: #666; /* Grey color for the subtitle */
-    margin-bottom: 20px; /* Space below the subtitle */
-    text-align: left; /* Align text to the left */
+    font-size: 16px; 
+    color: #666; 
+    margin-bottom: 20px; 
+    text-align: left; 
 }
 
 .bestsellers-container {
     display: flex;
-    flex-wrap: wrap; /* Allow cards to wrap */
-    justify-content: space-between; /* Space cards evenly */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
 }
 
 .bestsellers-card {
-    flex: 1 1 calc(20% - 20px); /* Responsive width */
-    margin: 10px; /* Margin around each card */
-    max-width: 250px; /* Maximum width for the cards */
-    overflow: hidden; /* Clip overflow */
+    flex: 1 1 calc(20% - 20px); 
+    margin: 10px;
+    max-width: 250px; 
+    overflow: hidden; 
 }
 
 .bestsellers-image {
-    width: 100%; /* Full width for the image */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the area */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 768px) {
     .bestsellers-card {
-        flex: 1 1 calc(45% - 20px); /* Two cards per row on smaller screens */
+        flex: 1 1 calc(45% - 20px); 
     }
 }
 
 @media (max-width: 480px) {
     .bestsellers-card {
-        flex: 1 1 calc(100% - 20px); /* Full width on very small screens */
+        flex: 1 1 calc(100% - 20px); 
     }
 }

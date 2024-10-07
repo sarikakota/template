@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Banner.css'; // Import the CSS file for styles
+import '../styles/Banner.css'; 
 import { Container } from 'react-bootstrap';
 
 function Banner() {

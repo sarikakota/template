@@ -1,6 +1,6 @@
+
 .footer {
-    background-color: #f8f9fa; /* Light background color */
-    padding: 20px;
+    background-color: #f8f9fa; 
     text-align: left;
     font-family: Arial, sans-serif;
   }
@@ -12,13 +12,13 @@
   }
   
   .footer-section {
-    flex: 1 1 20%; /* Flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 20%; 
     margin: 10px;
-    min-width: 200px; /* Minimum width for responsiveness */
+    min-width: 200px; 
   }
   
   .footer-logo {
-    width: 50px; /* Adjust as needed */
+    width: 50px; 
     margin-bottom: 10px;
   }
   
@@ -28,19 +28,19 @@
   }
   
   .app-icon, .social-icon {
-    width: 50px; /* Adjust size */
+    width: 50px; 
     height: 50px;
   }
   
   h3 {
-    color: #343a40; /* Darker color for headings */
+    color: #343a40; 
     margin-bottom: 10px;
-    font-size: 1rem; /* Decreased font size for headings */
+    font-size: 1.25rem; 
   }
   
   h4 {
-    color: #343a40; /* Darker color for subheadings */
-    font-size: 0.9rem; /* Decreased font size for subheadings */
+    color: #343a40; 
+    font-size: 1rem; 
   }
   
   ul {
@@ -50,20 +50,22 @@
   
   ul li {
     margin: 5px 0;
-    font-size: 0.8rem; /* Decreased font size for list items */
+    font-size: 0.9rem; 
   }
   
   .contact-section a {
-    color: #007bff; /* Link color */
+    color: #007bff; 
     text-decoration: none;
-    font-size: 0.9rem; /* Decreased font size for links */
+    line-height: 5%;
   }
-  
   .payment-icons {
     display: flex;
     gap: 10px;
     margin-top: 10px;
     width: 50px;
     height: 50px;
+  }
+  .footer-section p {
+      margin: 0px!important;
   }
   

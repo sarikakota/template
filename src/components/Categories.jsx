@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../styles/Categories.css'; // Import custom CSS file
+import '../styles/Categories.css'; 
 
 const Categories = () => {
   const images = [
@@ -10,7 +11,6 @@ const Categories = () => {
     "https://media.istockphoto.com/id/591792566/photo/fresh-raw-prawns-on-black-plate.jpg?s=612x612&w=0&k=20&c=Igr5qh9JNwLEkICGcZqhAxZe3ukonJf5RzlUpsgEqbc=",
     "https://thumbs.dreamstime.com/b/raw-chicken-plate-9246663.jpg",
     "https://media.istockphoto.com/id/173234780/photo/group-of-brown-raw-eggs-one-is-broken-isolated-white.jpg?s=612x612&w=0&k=20&c=Ezdfb242lOnxeYPA2nyEX6IKgjDpIfXI-g-in-ShSnE=",
-    // You can add more images as needed
   ];
 
   const imageNames = [
@@ -37,7 +37,7 @@ const Categories = () => {
             <span>{imageNames[index]}</span>
           </Col>
         ))}
-        {/* Add another column with the same images and names */}
+        
         {images.map((image, index) => (
           <Col xs={6} md={4} lg={2} key={`duplicate-${index}`} className="d-flex flex-column align-items-center mb-3">
             <img src={image} alt={`Category ${index + 1}`} className="category-image" />
@@ -47,6 +47,6 @@ const Categories = () => {
       </Row>
     </Container>
   );
-}
+};
 
 export default Categories;

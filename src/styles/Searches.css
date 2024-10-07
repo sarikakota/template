@@ -1,0 +1,31 @@
+
+.popular-searches {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .title {
+    text-align: left; 
+    color: #00796b; 
+    margin-bottom: 20px; 
+  }
+  
+  .search-category {
+    margin-bottom: 15px; 
+    
+  }
+  
+  .search-category h4 {
+    color: #343a40; 
+    margin: 10px 0; 
+    font-size: 15px;
+  }
+  
+  .search-category p {
+    color: #495057; 
+    font-size: 0.9rem; 
+    margin: 0; 
+  }
+  

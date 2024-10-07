@@ -1,5 +1,6 @@
+
 import React from 'react';
-import '../styles/Bestsellers.css'; // Import the CSS file
+import '../styles/Bestsellers.css'; 
 
 const Bestsellers = () => {
   const products = [

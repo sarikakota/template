@@ -1,7 +1,8 @@
+
 import React from 'react';
 import '../styles/Customers.css'; // Import the CSS file
 
-const Bestsellers = () => {
+const Customers = () => {
   const images = [
     "https://assets.licious.in/oms/771bdb4d-95c9-fc34-2a5a-2da7a0b3c5a3/original/1714641102145.png",
     "https://assets.licious.in/oms/5bf3f0ef-70be-4498-4acb-cee8ad2bbba5/original/1714641145708.png",
@@ -25,4 +26,4 @@ const Bestsellers = () => {
   );
 }
 
-export default Bestsellers;
+export default Customers;
